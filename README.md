@@ -6,7 +6,12 @@ A full-stack blog application built using the **MERN stack** (MongoDB, Express.j
 
 
 ---
+
+## Home Page
 ![Home](image.png)
+
+## Swagger API Documentation
+![Swagger-Documentation](image-1.png)
 
 ## Features
 
