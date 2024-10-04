@@ -93,7 +93,6 @@ cd MERN-Blog-Website
 
 #### Backend
 ```bash
-cd api
 npm install
 ```
 
@@ -124,7 +123,6 @@ This provides a clear and interactive interface for all available API endpoints,
 #### Backend
 To start the Node.js/Express server (Backend):
 ```bash
-cd api
 npm run dev
 ```
 The backend server will be running at: `http://localhost:3000`
@@ -133,7 +131,7 @@ The backend server will be running at: `http://localhost:3000`
 To start the React development server (Frontend):
 ```bash
 cd client
-npm start
+npm run dev
 ```
 The frontend will be running at: `http://localhost:5173`
 
