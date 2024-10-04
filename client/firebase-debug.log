@@ -1,0 +1,67 @@
+[debug] [2024-10-03T07:16:10.464Z] ----------------------------------------------------------------------
+[debug] [2024-10-03T07:16:10.467Z] Command:       /home/jaydippipaliya/.nvm/versions/node/v18.20.4/bin/node /home/jaydippipaliya/.nvm/versions/node/v18.20.4/bin/firebase deploy --only storage --debug
+[debug] [2024-10-03T07:16:10.467Z] CLI Version:   13.20.2
+[debug] [2024-10-03T07:16:10.467Z] Platform:      linux
+[debug] [2024-10-03T07:16:10.468Z] Node Version:  v18.20.4
+[debug] [2024-10-03T07:16:10.468Z] Time:          Thu Oct 03 2024 12:46:10 GMT+0530 (India Standard Time)
+[debug] [2024-10-03T07:16:10.468Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-10-03T07:16:10.550Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-10-03T07:16:10.552Z] > authorizing via signed-in user (robert.clave.official@gmail.com)
+[debug] [2024-10-03T07:16:10.552Z] [iam] checking project blogapp-jaydeep for permissions ["firebase.projects.get","firebaserules.releases.create","firebaserules.releases.update","firebaserules.rulesets.create"]
+[debug] [2024-10-03T07:16:10.554Z] Checked if tokens are valid: true, expires at: 1727942368418
+[debug] [2024-10-03T07:16:10.554Z] Checked if tokens are valid: true, expires at: 1727942368418
+[debug] [2024-10-03T07:16:10.556Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/blogapp-jaydeep:testIamPermissions [none]
+[debug] [2024-10-03T07:16:10.556Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/blogapp-jaydeep:testIamPermissions x-goog-quota-user=projects/blogapp-jaydeep
+[debug] [2024-10-03T07:16:10.556Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/blogapp-jaydeep:testIamPermissions {"permissions":["firebase.projects.get","firebaserules.releases.create","firebaserules.releases.update","firebaserules.rulesets.create"]}
+[debug] [2024-10-03T07:16:12.141Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/blogapp-jaydeep:testIamPermissions 200
+[debug] [2024-10-03T07:16:12.142Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/blogapp-jaydeep:testIamPermissions {"permissions":["firebase.projects.get","firebaserules.releases.create","firebaserules.releases.update","firebaserules.rulesets.create"]}
+[info] 
+[info] === Deploying to 'blogapp-jaydeep'...
+[info] 
+[info] i  deploying storage 
+[info] i  storage: ensuring required API firebasestorage.googleapis.com is enabled... 
+[debug] [2024-10-03T07:16:12.146Z] Checked if tokens are valid: true, expires at: 1727942368418
+[debug] [2024-10-03T07:16:12.146Z] Checked if tokens are valid: true, expires at: 1727942368418
+[debug] [2024-10-03T07:16:12.146Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/blogapp-jaydeep/services/firebasestorage.googleapis.com [none]
+[debug] [2024-10-03T07:16:12.146Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/blogapp-jaydeep/services/firebasestorage.googleapis.com x-goog-quota-user=projects/blogapp-jaydeep
+[debug] [2024-10-03T07:16:14.033Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/blogapp-jaydeep/services/firebasestorage.googleapis.com 200
+[debug] [2024-10-03T07:16:14.033Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/blogapp-jaydeep/services/firebasestorage.googleapis.com [omitted]
+[info] ✔  storage: required API firebasestorage.googleapis.com is enabled 
+[debug] [2024-10-03T07:16:14.034Z] Checked if tokens are valid: true, expires at: 1727942368418
+[debug] [2024-10-03T07:16:14.034Z] Checked if tokens are valid: true, expires at: 1727942368418
+[debug] [2024-10-03T07:16:14.035Z] >>> [apiv2][query] GET https://firebasestorage.googleapis.com/v1alpha/projects/blogapp-jaydeep/defaultBucket [none]
+[debug] [2024-10-03T07:16:15.320Z] <<< [apiv2][status] GET https://firebasestorage.googleapis.com/v1alpha/projects/blogapp-jaydeep/defaultBucket 200
+[debug] [2024-10-03T07:16:15.320Z] <<< [apiv2][body] GET https://firebasestorage.googleapis.com/v1alpha/projects/blogapp-jaydeep/defaultBucket {"name":"projects/blogapp-jaydeep/defaultBucket","location":"US","bucket":{"name":"projects/blogapp-jaydeep/buckets/blogapp-jaydeep.appspot.com"}}
+[info] i  firebase.storage: checking storage.rules for compilation errors... 
+[debug] [2024-10-03T07:16:15.323Z] Checked if tokens are valid: true, expires at: 1727942368418
+[debug] [2024-10-03T07:16:15.323Z] Checked if tokens are valid: true, expires at: 1727942368418
+[debug] [2024-10-03T07:16:15.323Z] >>> [apiv2][query] POST https://firebaserules.googleapis.com/v1/projects/blogapp-jaydeep:test [none]
+[debug] [2024-10-03T07:16:15.323Z] >>> [apiv2][body] POST https://firebaserules.googleapis.com/v1/projects/blogapp-jaydeep:test [omitted]
+[debug] [2024-10-03T07:16:16.897Z] <<< [apiv2][status] POST https://firebaserules.googleapis.com/v1/projects/blogapp-jaydeep:test 200
+[debug] [2024-10-03T07:16:16.897Z] <<< [apiv2][body] POST https://firebaserules.googleapis.com/v1/projects/blogapp-jaydeep:test {}
+[info] ✔  firebase.storage: rules file storage.rules compiled successfully 
+[debug] [2024-10-03T07:16:16.898Z] Checked if tokens are valid: true, expires at: 1727942368418
+[debug] [2024-10-03T07:16:16.899Z] Checked if tokens are valid: true, expires at: 1727942368418
+[debug] [2024-10-03T07:16:16.900Z] >>> [apiv2][query] GET https://firebaserules.googleapis.com/v1/projects/blogapp-jaydeep/releases pageSize=10&pageToken=
+[debug] [2024-10-03T07:16:18.270Z] <<< [apiv2][status] GET https://firebaserules.googleapis.com/v1/projects/blogapp-jaydeep/releases 200
+[debug] [2024-10-03T07:16:18.271Z] <<< [apiv2][body] GET https://firebaserules.googleapis.com/v1/projects/blogapp-jaydeep/releases {"releases":[{"name":"projects/blogapp-jaydeep/releases/firebase.storage/blogapp-jaydeep.appspot.com","rulesetName":"projects/blogapp-jaydeep/rulesets/814ebd31-7be0-4905-93a3-ac62c9bfa71e","createTime":"2024-10-03T07:06:22.672638Z","updateTime":"2024-10-03T07:09:40.821225Z"}]}
+[debug] [2024-10-03T07:16:18.271Z] Checked if tokens are valid: true, expires at: 1727942368418
+[debug] [2024-10-03T07:16:18.271Z] Checked if tokens are valid: true, expires at: 1727942368418
+[debug] [2024-10-03T07:16:18.272Z] >>> [apiv2][query] GET https://firebaserules.googleapis.com/v1/projects/blogapp-jaydeep/rulesets/814ebd31-7be0-4905-93a3-ac62c9bfa71e [none]
+[debug] [2024-10-03T07:16:19.662Z] <<< [apiv2][status] GET https://firebaserules.googleapis.com/v1/projects/blogapp-jaydeep/rulesets/814ebd31-7be0-4905-93a3-ac62c9bfa71e 200
+[debug] [2024-10-03T07:16:19.662Z] <<< [apiv2][body] GET https://firebaserules.googleapis.com/v1/projects/blogapp-jaydeep/rulesets/814ebd31-7be0-4905-93a3-ac62c9bfa71e [omitted]
+[info] i  storage: latest version of storage.rules already up to date, skipping upload... 
+[debug] [2024-10-03T07:16:19.666Z] [rules] releasing firebase.storage/blogapp-jaydeep.appspot.com with ruleset projects/blogapp-jaydeep/rulesets/814ebd31-7be0-4905-93a3-ac62c9bfa71e
+[debug] [2024-10-03T07:16:19.666Z] Checked if tokens are valid: true, expires at: 1727942368418
+[debug] [2024-10-03T07:16:19.666Z] Checked if tokens are valid: true, expires at: 1727942368418
+[debug] [2024-10-03T07:16:19.667Z] >>> [apiv2][query] PATCH https://firebaserules.googleapis.com/v1/projects/blogapp-jaydeep/releases/firebase.storage/blogapp-jaydeep.appspot.com [none]
+[debug] [2024-10-03T07:16:19.667Z] >>> [apiv2][body] PATCH https://firebaserules.googleapis.com/v1/projects/blogapp-jaydeep/releases/firebase.storage/blogapp-jaydeep.appspot.com {"release":{"name":"projects/blogapp-jaydeep/releases/firebase.storage/blogapp-jaydeep.appspot.com","rulesetName":"projects/blogapp-jaydeep/rulesets/814ebd31-7be0-4905-93a3-ac62c9bfa71e"}}
+[debug] [2024-10-03T07:16:21.123Z] <<< [apiv2][status] PATCH https://firebaserules.googleapis.com/v1/projects/blogapp-jaydeep/releases/firebase.storage/blogapp-jaydeep.appspot.com 200
+[debug] [2024-10-03T07:16:21.123Z] <<< [apiv2][body] PATCH https://firebaserules.googleapis.com/v1/projects/blogapp-jaydeep/releases/firebase.storage/blogapp-jaydeep.appspot.com {"name":"projects/blogapp-jaydeep/releases/firebase.storage/blogapp-jaydeep.appspot.com","rulesetName":"projects/blogapp-jaydeep/rulesets/814ebd31-7be0-4905-93a3-ac62c9bfa71e","createTime":"2024-10-03T07:06:22.672638Z","updateTime":"2024-10-03T07:15:44.841651Z"}
+[debug] [2024-10-03T07:16:21.123Z] [rules] updated release projects/blogapp-jaydeep/releases/firebase.storage/blogapp-jaydeep.appspot.com
+[info] ✔  storage: released rules storage.rules to firebase.storage 
+[info] 
+[info] ✔  Deploy complete! 
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/blogapp-jaydeep/overview
