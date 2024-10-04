@@ -1,5 +1,3 @@
-Here’s a professional and comprehensive README file for your **MERN Blog Application** project that you can use in your GitHub repository. Feel free to modify any specific details as needed.
-
 ---
 
 # MERN Blog Application
