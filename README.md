@@ -4,9 +4,9 @@
 
 A full-stack blog application built using the **MERN stack** (MongoDB, Express.js, React.js, Node.js). This application allows users to create, update, delete, and manage blog posts and comments. It includes authentication (JWT and Google OAuth), a like/dislike feature, and an admin panel for managing content.
 
-![Home page]](image.png)
 
 ---
+![Home](image.png)
 
 ## Features
 
@@ -191,7 +191,7 @@ This project is open source and available under the [MIT License](LICENSE).
 For more information, feel free to reach out:
 
 **Jaydeep Pipaliya**  
-[LinkedIn](#https://www.linkedin.com/in/jaydeep-pipaliya-380905217/)  
+[LinkedIn](https://www.linkedin.com/in/jaydeep-pipaliya-380905217/)  
 [Email: jbpipaliya71@gmail.com](mailto:jbpipaliya71@gmail.com)
 
 ---
