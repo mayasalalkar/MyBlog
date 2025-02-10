@@ -22,7 +22,8 @@ A full-stack blog application built using the **MERN stack** (MongoDB, Express.j
 ---
 
 ## Home Page
-![Home](image.png)
+![Home](![image](https://github.com/user-attachments/assets/1ef5e70a-baa5-4318-a8c3-38138348c7e5)
+)
 
 ## Swagger API Documentation
 ![Swagger-Documentation](image-1.png)
@@ -85,8 +86,8 @@ Before you begin, ensure you have the following installed on your system:
 ### Clone the repository
 
 ```bash
-git clone https://github.com/Maya-pipaliya/MERN-Blog-Website.git
-cd MERN-Blog-Website
+git clone https://github.com/mayasalalkar/MyBlog.git
+cd MyBlog
 ```
 
 ### Install Dependencies
@@ -207,9 +208,8 @@ This project is open source and available under the [MIT License](LICENSE).
 
 For more information, feel free to reach out:
 
-**Maya Pipaliya**  
-[LinkedIn](https://www.linkedin.com/in/Maya-pipaliya-380905217/)  
-[Email: jbpipaliya71@gmail.com](mailto:jbpipaliya71@gmail.com)
+**Maya Salalkar**  
+
 
 ---
 
