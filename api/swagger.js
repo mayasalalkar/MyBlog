@@ -8,22 +8,22 @@ const swaggerOptions = {
   definition: {
     openapi: '3.0.0',
     info: {
-      title: "Jaydeep's Blog API Documentation",
+      title: "Maya's Blog API Documentation",
       version: '1.0.0',
       description: 'API documentation for the Blog REST API',
       contact: {
-        name: 'Jaydeep Pipaliya',
-        email: 'jaydeep@intalk.com',
+        name: 'Maya Salalkar',
+        email: 'Maya@intalk.com',
       },
     },
     servers: [
       {
-        url: 'http://localhost:3000', 
+        url: 'http://localhost:3000',
         description: 'Development server',
       },
     ],
   },
-  apis: ['./api/routes/*.js'], 
+  apis: ['./api/routes/*.js'],
 };
 
 const swaggerDocs = swaggerJsdoc(swaggerOptions);

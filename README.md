@@ -85,7 +85,7 @@ Before you begin, ensure you have the following installed on your system:
 ### Clone the repository
 
 ```bash
-git clone https://github.com/jaydeep-pipaliya/MERN-Blog-Website.git
+git clone https://github.com/Maya-pipaliya/MERN-Blog-Website.git
 cd MERN-Blog-Website
 ```
 
@@ -207,8 +207,8 @@ This project is open source and available under the [MIT License](LICENSE).
 
 For more information, feel free to reach out:
 
-**Jaydeep Pipaliya**  
-[LinkedIn](https://www.linkedin.com/in/jaydeep-pipaliya-380905217/)  
+**Maya Pipaliya**  
+[LinkedIn](https://www.linkedin.com/in/Maya-pipaliya-380905217/)  
 [Email: jbpipaliya71@gmail.com](mailto:jbpipaliya71@gmail.com)
 
 ---

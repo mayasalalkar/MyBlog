@@ -12,7 +12,7 @@ import swaggerRoute from './swagger.js';
 dotenv.config();
 
 mongoose
-  .connect(process.env.MONGO)
+  .connect("mongodb://localhost:27017/blogginnewweb")
   .then(() => {
     console.log('MongoDb is connected');
   })

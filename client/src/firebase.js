@@ -6,13 +6,13 @@ import { initializeApp } from 'firebase/app';
 // Your web app's Firebase configuration
 
 const firebaseConfig = {
-apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-authDomain: "blogapp-jaydeep.firebaseapp.com",
-projectId: "blogapp-jaydeep",
-storageBucket: "blogapp-jaydeep.appspot.com",
-messagingSenderId: "923236815008",
-appId: "1:923236815008:web:cde360a678d8d78ab2b9c5",
-measurementId: "G-1DXR76HRYL"
+    apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+    authDomain: "blogapp-Maya.firebaseapp.com",
+    projectId: "blogapp-Maya",
+    storageBucket: "blogapp-Maya.appspot.com",
+    messagingSenderId: "923236815008",
+    appId: "1:923236815008:web:cde360a678d8d78ab2b9c5",
+    measurementId: "G-1DXR76HRYL"
 };
 
 
